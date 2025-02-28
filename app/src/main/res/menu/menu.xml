@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_SD"
+        android:title="SD"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_HD"
+        android:title="HD"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_FHD"
+        android:title="FHD"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_UHD"
+        android:title="UHD"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_change_camera"
+        android:icon="@drawable/ic_change"
+        android:title="TODO"
+        app:showAsAction="ifRoom" />
+</menu>
